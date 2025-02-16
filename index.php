@@ -11,7 +11,21 @@
 </head>
 <body>
   <div class="container mt-5">
-<form class="row g-3" method="post" action="./controller/registercontrol.php" >
+<form class="row g-3" method="post" action="./controller/registercontrol.php">
+  <div class="col-md-12">
+   
+      <?php
+      if(!empty($_GET["SubmitForm"])) { ?>
+        <div class="alert alert-success"> 
+        <?php
+        echo  $_GET["SubmitForm"];  ?>
+        </div>
+      <?php 
+      }
+      ?>
+   
+   
+  </div>
   <div class="col-md-4">
     <label for="validationServer01" class="form-label">First name</label>
     <input type="text"  name="firstname" class="form-control is-valid" id="validationServer01" value="Mark" required>
