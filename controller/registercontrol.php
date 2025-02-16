@@ -1,8 +1,6 @@
 <?php
 
 if($_SERVER["REQUEST_METHOD"]==="POST"){
-
-
     $firstName = htmlspecialchars(trim($_POST["firstname"]));
     $lastName = htmlspecialchars(trim($_POST["lastname"]));
     $userName = trim($_POST["username"]);
