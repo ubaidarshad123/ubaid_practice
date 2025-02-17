@@ -1,0 +1,11 @@
+first we will add = git add .
+second we will commit -m "Shoaib Ajmal"
+
+Then we will push if we want to share data with others the we will Push
+git push.
+
+ if we want to get data From others the we will Pull
+git pull.
+
+ 
+ 
